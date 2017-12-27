@@ -22,6 +22,10 @@ begin
         raiserror('Trabajando desde %s hasta %s' ,10, 1,@PrintStart ,@PrintEnd)
 
         --     El trabajo va aqui
+		--	select  [SalesOrderID]
+		--	from	[Sales].[SalesOrderHeader]
+		--	where	[OrderDate] >= @StartDate
+		--	and		[OrderDate] < @EndDate
 
         --     Increment the weeks
         set @StartDate = @EndDate

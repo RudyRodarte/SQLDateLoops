@@ -19,6 +19,10 @@ begin
         raiserror('Working on %s to %s' ,10, 1,@PrintStart ,@PrintEnd)
 
         --     Do something here
+		--	select  [SalesOrderID]
+		--	from	[Sales].[SalesOrderHeader]
+		--	where	[OrderDate] >= @StartDate
+		--	and		[OrderDate] < @EndDate
 
         --     Increment the weeks
         set @StartDate = @EndDate
