@@ -8,7 +8,7 @@
 <a name="header1"></a>
 ## Synopsis - Sinopsis
 (ES)
-Aprender a utilizar bucles para iterar sobre las fechas en SQL Server. El proceso espera dos parámetros de fecha, una fecha de inicio y una fecha final. A continuación, el proceso asignará una tercera variable, siete días después de la fecha de inicio. A continuación, el proceso ejecutará el código dado. El paso final dentro del bucle incrementa la fecha de inicio y la fecha de finalización por siete días. El proceso se bucle hasta que la fecha de inicio es mayor que la fecha final total.
+Aprenda cómo utilizar bucles para iterar sobre las fechas en SQL Server. El proceso usa dos parámetros de fecha, una fecha de inicio y una fecha final. A continuación, el proceso asignará una tercera variable, siete días después de la fecha de inicio. A continuación, el proceso ejecutará el código dado. El paso final dentro del bucle incrementa la fecha de inicio y la fecha de finalización por siete días. El proceso se bucle hasta que la fecha de inicio es mayor que la fecha final total.
 
 (EN)
 Learn how to use loops to iterate over dates in SQL Server. The script expects two date parameters, a start date and an overall end date. The script will then assign a third variable, end date, seven days after the start date. The script will execute your given code. The final step inside the loop increments the start date and end date by seven days. The script will loop until the start date is greater then the overall end date. 
